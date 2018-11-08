@@ -23,7 +23,7 @@ Data\BatchJobStatus-2018-11-8.xlsx
 | 3   | Process3.xaml | プロセス３   | - | - |
 
 * #: プロセス番号（ログに出力します）
-* Process File: プロセスファイル名（Processフォルダの対応するファイル名のワークフローを実行します）
+* Process File: プロセスファイル名（Processesフォルダの対応するファイル名のワークフローを実行します）
 * Process Name: プロセス名称（プロセスの概要。ログに出力します）
 * Execution DateTime: プロセスが終了した日時
 * Status: プロセスの実行結果（Success/Business Error/System Error)
@@ -60,6 +60,6 @@ Constantsタブ
 
 6. EndProces.xamlに終了処理を実装します。
 
-7. Processフォルダに4.で定義したプロセスを実装します。
+7. Processesフォルダに4.で定義したプロセスを実装します。
 
-  Processフォルダには、引数等を設定したテンプレート（ProcessTemplate.xaml）と、デバッグ用にランダムにエラーを発生するプロセス（RandomError.xaml）があらかじめ用意されています。
+※ Processesフォルダには、引数等を設定したテンプレート（ProcessTemplate.xaml）と、デバッグ用にランダムにエラーを発生するプロセス（RandomError.xaml）があらかじめ用意されています。
