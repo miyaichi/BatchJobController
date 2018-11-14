@@ -8,24 +8,25 @@
 
 Data\BatchJobDifinition.xlsx
 
-| #   | Process File  | Process Name | Execution DateTime | Status |
-| --- | ------------- | ------------ | ------------------ | ------ |
-| 1   | Process1.xaml | プロセス１   | - | - |
-| 2   | Process2.xaml | プロセス２   | - | - |
-| 3   | Process3.xaml | プロセス３   | - | - |
+| #   | Process File  | Process Name | Execution DateTime | Execution Second | Status |
+| --- | ------------- | ------------ | ------------------ | ---------------- | ------ |
+| 1   | Process1.xaml | プロセス１   | -                  | -                | -      |
+| 2   | Process2.xaml | プロセス２   | -                  | -                | -      |
+| 3   | Process3.xaml | プロセス３   | -                  | -                | -      |
 
 Data\BatchJobStatus-2018-11-8.xlsx
 
-| #   | Process File  | Process Name | Execution DateTime | Status |
-| --- | ------------- | ------------ | ------------------ | ------ |
-| 1   | Process1.xaml | プロセス１   | 2018/11/8 12:00 | Success |
-| 2   | Process2.xaml | プロセス２   | 2018/11/8 12:05 | Business Error |
-| 3   | Process3.xaml | プロセス３   | - | - |
+| #   | Process File  | Process Name | Execution DateTime | Execution Second | Status         |
+| --- | ------------- | ------------ | ------------------ | ---------------- | -------------- |
+| 1   | Process1.xaml | プロセス１   | 2018/11/8 12:00    | 10               | Success        |
+| 2   | Process2.xaml | プロセス２   | 2018/11/8 12:05    | 290              | Business Error |
+| 3   | Process3.xaml | プロセス３   | -                  | -                | -              |
 
 * #: プロセス番号（ログに出力します）
 * Process File: プロセスファイル名（Processesフォルダの対応するファイル名のワークフローを実行します）
 * Process Name: プロセス名称（プロセスの概要。ログに出力します）
 * Execution DateTime: プロセスが終了した日時
+* Execution Second: プロセスの実行時間（秒数）
 * Status: プロセスの実行結果（Success/Business Error/System Error)
 
 ## 設定
