@@ -889,8 +889,8 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "BatchControler",
-      "projectName": "BatchControler",
+      "projectUniqueName": "BatchJobController",
+      "projectName": "BatchJobController",
       "projectPath": "C:\\Users\\miyaichi.yoshihiko\\Documents\\UiPath\\BatchJobController\\.local",
       "packagesPath": "C:\\Users\\miyaichi.yoshihiko\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\miyaichi.yoshihiko\\Documents\\UiPath\\BatchJobController\\.local"
